@@ -1,13 +1,9 @@
 <script lang="ts" setup>
     definePageMeta({
-        layout:'custom'
-    })
-    const mydatas=usePaprobath()
-</script>
-<script lang="ts">
-    definePageMeta({
+        layout:'custom',
         middleware:'auth'
     })
+    const mydatas=usePaprobath()
 </script>
 <template>
    <ClientOnly>

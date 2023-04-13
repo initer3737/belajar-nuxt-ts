@@ -1,4 +1,7 @@
 <script>
+definePageMeta({
+        middleware:'auth'
+    })
     let formTodo={
         todo:[
             'makan mie ayam pake es jeruk',

@@ -1,5 +1,8 @@
+import { debehAuth } from "~~/stores/debehAuth";
+
 export default defineNuxtRouteMiddleware((to,from)=>{
-    if (to.path !== 'contacts') {
-        return navigateTo('/')
+  if (debehAuth().getToken !== true) {
+       return navigateTo('/login')
       }
+      
 })

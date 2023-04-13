@@ -1,4 +1,7 @@
 <script setup>
+definePageMeta({
+        middleware:'auth'
+    })
 import { useRoute } from 'vue-router';
 const {id}=useRoute().params
 const { data: users } = await useFetch(`https://jsonplaceholder.typicode.com/users/${id}`)
