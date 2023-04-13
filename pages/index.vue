@@ -1,4 +1,5 @@
-<script>
+<script setup>
+useTitle('home')
    definePageMeta({
       middleware:'auth'
    })

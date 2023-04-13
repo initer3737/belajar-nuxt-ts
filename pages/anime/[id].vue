@@ -1,4 +1,5 @@
 <script setup>
+useTitle('anime')
 definePageMeta({
         middleware:'auth'
     })

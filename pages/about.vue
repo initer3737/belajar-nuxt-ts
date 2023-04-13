@@ -1,4 +1,8 @@
-<script>
+<script setup>
+useTitle('about')
+</script>
+
+<script lang="ts">
 definePageMeta({
         middleware:'auth'
     })

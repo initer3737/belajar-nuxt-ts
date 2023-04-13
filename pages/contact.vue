@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+useTitle('contact')
     definePageMeta({
         layout:'custom',
         middleware:'auth'

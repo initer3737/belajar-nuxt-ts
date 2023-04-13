@@ -1,7 +1,10 @@
+<script setup>
+useTitle('login')
+</script>
 <script lang="ts">
 import { debehAuth } from '~~/stores/debehAuth';
 definePageMeta({
-        middleware:['logged']
+        middleware:['logged'],
     })
 
 export default {
